@@ -20,4 +20,4 @@ end
 board = (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
 turn_count (board)
 
-current_player(final_count)
+current_player(turn_count)
