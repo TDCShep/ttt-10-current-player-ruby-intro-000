@@ -5,14 +5,14 @@ def turn_count (board)
             count += 1
       end
     end
-    count
+  count
 end
 
-def current_player (turn_count)
-  if turn_count.even?
-    return "X"
+def current_player (board)
+  if turn_count % 2 == 0
+    "X"
   else
-    return "O"
+    "O"
   end
 end
 
