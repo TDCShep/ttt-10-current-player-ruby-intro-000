@@ -10,8 +10,8 @@ end
 
 def current_player (final_count)
   if final_count.even?
-    "X"
+    return = "X"
   else
-    "O"
+    return = "O"
   end
 end
