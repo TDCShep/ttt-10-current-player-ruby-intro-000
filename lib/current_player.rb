@@ -8,6 +8,6 @@ def turn_count (board)
 end
 
 board = (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
-turn_count(board)
+turn_count (board)
 
 puts turn_count
