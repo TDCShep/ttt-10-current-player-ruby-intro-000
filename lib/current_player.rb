@@ -1,4 +1,6 @@
 def turn_count (board)
-    count = 1
+    count = 0
     puts count
 end
+
+turn_count
