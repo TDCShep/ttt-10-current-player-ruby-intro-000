@@ -4,10 +4,11 @@ def turn_count (board)
       if board_position == "X" || board_position == "O"
             count += 1
             puts count
-            final_count = count
-            puts final_count
+
       end
     end
+    final_count = count
+    puts final_count
 end
 
 board = (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
