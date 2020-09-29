@@ -10,4 +10,4 @@ end
 board = (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
 turn_count (board)
 
-puts turn_count (board)
+puts count
