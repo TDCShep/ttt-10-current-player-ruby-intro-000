@@ -6,5 +6,4 @@ def turn_count (board)
       end
     end
     final_count = count
-    puts final_count
 end
