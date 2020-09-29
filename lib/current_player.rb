@@ -15,3 +15,10 @@ def current_player (final_count)
     return "O"
   end
 end
+
+
+board = (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
+turn_count (board)
+
+current_player(final_count)
+
