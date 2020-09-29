@@ -3,4 +3,4 @@ def turn_count (board)
     puts count
 end
 
-turn_count
+turn_count (["O", " ", " ", " ", "X", " ", " ", " ", "X"])
