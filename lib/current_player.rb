@@ -6,4 +6,5 @@ def turn_count (board)
     elsif board_position == "O"
       count += 1
     end
+    end
 end
